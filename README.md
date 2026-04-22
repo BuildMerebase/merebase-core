@@ -1,29 +1,40 @@
-# merebase-core
+# Merebase
 
-> **The open source deployment layer for business apps built by AI.**
+> Your AI builds apps. Merebase runs them.
 
-AI tools can build a working business app in an afternoon. The question nobody answers is: where does it actually live? Not on someone else's servers. Not on a platform that can change its pricing tomorrow. On yours.
-
-Free. No account. No subscription. No call home. GPL v2.
+Merebase is a WordPress plugin that turns any WordPress site into a private app platform. Deploy apps built with Claude, ChatGPT, or Gemini in one command. Free. No subscriptions.
 
 ---
 
-## How it works
+## What it does
 
-**1. Install the plugin** on any standard WordPress hosting.
+You build an app with an AI. You POST it to your Merebase endpoint. It's live. You control who sees it.
 
-**2. Copy your context file** from WP Admin → Merebase. One file. Paste it once into your AI session — Claude, ChatGPT, Cursor, Bolt, Lovable, or any tool that accepts project context.
+Apps are static files — HTML, CSS, JavaScript. Your AI writes the code. Merebase serves the files, stores the data, and handles access. Deploy a single HTML file or a full multi-page app from a zip. One command either way.
 
-**3. Build.** Your AI generates code that deploys directly to your install. User auth, access controls, and the `/mb/` dashboard are already in place.
+**Access control built in.** Public, named individuals via magic link, or anyone at a specific email domain.
 
-Apps you deploy show up on the dashboard. You control who can access them. Only you ever need to touch WP Admin — everyone else works from `/mb/`.
+**Every deploy is versioned.** Roll back to any previous version instantly.
 
-→ [Describe what you need and we build it — A$499](https://www.merebase.com/start)
+**Your data stays yours.** Everything lives in your own WordPress database.
 
 ---
 
 ## Status
 
-Active development. Full documentation coming soon.
+In active development. Not yet available for public install.
 
-[@BuildMerebase](https://x.com/BuildMerebase) · [merebase.com](https://www.merebase.com)
+Follow [@buildmerebase](https://x.com/buildmerebase) for updates.  
+Visit [merebase.com](https://merebase.com) to get notified when it launches.
+
+---
+
+## Coming
+
+- WordPress plugin — free, open source, installs in one click
+- Marketplace apps — $99 one-time, deploy to your install in minutes
+- MCP server — give your AI direct access to your Merebase install
+
+---
+
+*[@buildmerebase](https://x.com/buildmerebase)*
